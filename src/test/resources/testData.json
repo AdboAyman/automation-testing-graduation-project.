@@ -1,0 +1,38 @@
+
+{
+  "loginData": [
+    {
+      "username": "Admin",
+      "password": "admin123",
+      "expected": "valid"
+    },
+    {
+      "username": "WrongAdmin",
+      "password": "wrong123",
+      "expected": "invalid"
+    },
+    {
+      "username": "",
+      "password": "",
+      "expected": "empty"
+    }
+  ],
+
+  "employeeData": [
+    {
+      "firstName": "David",
+      "lastName": "Brown"
+    }
+  ],
+
+  "employeeSearchData": [
+    {
+      "employeeName": "Amelia Brown",
+      "expected": "found"
+    },
+    {
+      "employeeName": "EmployeeDoesNotExist999",
+      "expected": "notFound"
+    }
+  ]
+}
